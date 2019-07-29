@@ -1,0 +1,34 @@
+*.log
+
+### Composer ###
+composer.phar
+/vendor/
+
+### PhpStorm ###
+.idea
+.idea/*
+
+
+### SublimeText ###
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+# sftp configuration file
+sftp-config.json
+ftpsync.settings
+
+### NetBeans ###
+/nbproject/private/
+/nbproject/*
+/nbproject/project.properties
+/nbproject/project.xml
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/nbactions.xml
+.nb-gradle/
+
+/composer.lock                  
