@@ -82,7 +82,6 @@
                  data: $formInsert.serialize(),
                  dataType: 'json',
                  success: function(response) {
-                     console.log('success');
 
                      if(api_adderss) {
                          call_ajax("POST", "<?= SITE_ROOT ?>/client/store", false)
@@ -105,7 +104,6 @@
                      }
                  },
                  error: function(response){
-                     console.log('error');
 
                      if (response.responseJSON !== undefined && response.responseJSON.error) {
                          $.each(response.responseJSON.error, function(k, v) {
